@@ -42,7 +42,7 @@ int main (int argc, char *argv[]) {
 	loff_t length = fd_stat.st_size;
 	
 	int result = posix_fadvise(fd, offset, length, POSIX_FADV_DONTNEED);
-	if (result != ){
+	if (result != 0){
 		fprintf(stderr, "Could not set POSIX_FADV_DONTNEED for file %s\n",path);
 	}
 	close(fd);
