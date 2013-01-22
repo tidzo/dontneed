@@ -14,7 +14,7 @@ applies POSIX_FADV_DONTNEED to the specified file
 
 int main (int argc, char *argv[]) {
 	
-	if (argc != 1) {
+	if (argc != 2) {
 		printf ("Usage: %s filename\n\n", argv[0]);
 		printf ("Applies POSIX_FADV_DONTNEED to the specified file.\n\n");
 		exit(1);
