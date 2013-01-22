@@ -8,7 +8,12 @@
 
 dontneed.c 
 
-applies POSIX_FADV_DONTNEED to the specified file
+Applies POSIX_FADV_DONTNEED to the specified file.
+
+Matt Saunders, Tidzo Limited 2013-01-22
+
+Inspired by https://github.com/yoshinorim/unmap_mysql_logs and http://code.google.com/p/linux-ftools/
+
 
 **/
 
